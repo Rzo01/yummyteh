@@ -548,7 +548,7 @@ async function placeOrder() {
 
   let message = {
     content:
-      "**====================**\n\n"
+      "**====================**\n\n" +
       "**NEW YUMMY TEH ORDER!**\n\n" +
       "**@everyone**\n\n" +
       "**Name:** " + customer + "\n" +
@@ -557,7 +557,7 @@ async function placeOrder() {
       "**Delivery Time:** " + formattedTime + "\n\n" +
       "**ORDER:**\n" + order + "\n\n" +
       "**Total:** ₱" + total + "\n" +
-      "**Notes:** " + (notes || "None")
+      "**Notes:** " + (notes || "None") +
       "**====================**\n\n"
   };
 
